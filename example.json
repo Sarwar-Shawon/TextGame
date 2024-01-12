@@ -1,0 +1,14 @@
+{
+  "rooms": [
+    {
+      "id": "room1",
+      "desc": "On the wall are these words in red: KILL ALL MONSTERS OR DIE. There is a door to the east.",
+      "exits": { "east": "room2" }
+    },
+    {
+      "id": "room2",
+      "desc": "This is another room.",
+      "exits": { "west": "room1" }
+    }
+  ]
+}
